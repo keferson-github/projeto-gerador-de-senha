@@ -21,6 +21,13 @@ body {
   flex-direction: column;
 }
 
+main {
+  padding: 30px;
+  min-width: 300px;
+  max-width: 768px;
+  margin: auto;
+}
+
 .logo {
   max-width: 350px;
   margin-bottom: 24px;
@@ -84,7 +91,7 @@ body {
 }
 
 .password {
-  height: 60px;
+  height: 50px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 30px;
   display: flex;
@@ -100,6 +107,7 @@ body {
 }
 
 .tooltip {
+  max-width: 375px;
   color: #fff;
   position: relative;
   top: 20px;
